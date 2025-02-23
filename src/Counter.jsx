@@ -3,7 +3,7 @@ import Button from "./Components/Button";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
-
+  
   const incrementHandler = () => {
     setCount(count + 1);
   };
